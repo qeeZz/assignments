@@ -62,4 +62,6 @@ nb.fit(X_train, y_train)
 probabs = nb.predict_proba(X_test)
 
 print(f1_score(y_test, nb.predict(X_test)))
+0.974604713072
 print(accuracy_score(y_test, nb.predict(X_test)))
+0.974550898204
